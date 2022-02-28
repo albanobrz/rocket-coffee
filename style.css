@@ -77,33 +77,31 @@ main {
 }
 
 .img-container img {   /* tive que especificar mais, pois o margin 0 de cima tava tendo prioridade */
-    display: block;
+    position: relative;
     margin-left: calc(50% - 400px);
-    margin-right: auto;
-    position: absolute;
-    bottom: 0px;
+    bottom: -20px;
 }
 
     /* blur effect */
 
 .blur-left {
-    position: absolute;
+    position: fixed;
     background-color: #996DFF;
-    width: 321px;
-    height: 321px;
+    width: 360px;
+    height: 360px;
     left: -21px;
     top: 495px;
     filter: blur(200px);
 }
 
 .blur-right {
-    position: absolute;
+    position: fixed;
     background-color: #996DFF;
     width: 360px;
     height: 360px;
-    left: 1500px;
+    left: 90%;
     top: -63px;
-    filter: blur(200px);
+    filter: blur(150px);
 }
 
 .blur-mobile {
@@ -213,6 +211,7 @@ main section button {
 .sidebar-list li:hover {
     border-left: solid 6px #8257E5;
     color: var(--text-color);
+    transition: 0.2s;
 }
 
 li, button:hover {
