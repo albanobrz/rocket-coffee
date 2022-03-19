@@ -1,4 +1,4 @@
-Rocketseat challange
+# Rocketseat challange
 
-Responsible layout, for desktop and mobile 
+## **Responsible** layout, for desktop and mobile 
 Made to practice html, css and JS
